@@ -4,7 +4,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 
 ## Contents
 
-01.
+01. JavaScript Drum Kit (2/2/17)
 02.
 03.
 04.
@@ -33,7 +33,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 27.
 28.
 29.
-30. 
+30.
 
 ## Author
 
