@@ -1,0 +1,3 @@
+Each key has a keycode.  Find them at keycode.info
+
+Use data-key attribute.  data- attributes are made to link these elements together in some way.
