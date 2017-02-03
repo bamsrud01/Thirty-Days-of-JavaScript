@@ -5,7 +5,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 ## Contents
 
 01. JavaScript Drum Kit (2/2/17)
-02.
+02. JavaScript Clock (2/3/17)
 03.
 04.
 05.
