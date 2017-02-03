@@ -1,8 +1,57 @@
+html {
+  font-size: 10px;
+  background: url(http://imgur.com/gjXPasK.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys, h1 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 4rem;
+  min-height: 10vh;
+  color: white;
+}
+.keys {
+  min-height: 80vh;
+}
 .key {
-  transition: all 0.07s;
+  border: .4rem solid black;
+  border-radius: 1rem;
+  margin: 1.3rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 7rem;
+  text-align: center;
+  color: black;
+  background: rgba(255,255,255,0.4);
+  text-shadow: 0 0 .5rem black;
 }
 .playing {
-  transform: scale(1.1);
+  transform: scale(1.31);
+  background: rgba(0,0,0,0.4);
+  color: white;
   border-color: #ffc600;
   box-shadow: 0 0 10px #ffc600;
+}
+kbd {
+  display: block;
+  font-size: 5rem;
+}
+.sound {
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  color: #ffc600;
 }
