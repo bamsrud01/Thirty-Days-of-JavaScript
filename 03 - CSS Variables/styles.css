@@ -1,3 +1,20 @@
+/*  CSS Variables declared on some element.  Root in this case  */
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
 /*
   misc styles, nothing to do with CSS variables
 */
