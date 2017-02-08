@@ -9,7 +9,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 03. CSS Variables (2/4/17)
 04. Array Cardio - Day 1 (2/5/17)
 05. Flex Gallery (2/6/17)
-06.
+06. Type Ahead (2/7/17)
 07.
 08.
 09.
