@@ -10,7 +10,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 04. Array Cardio - Day 1 (2/5/17)
 05. Flex Gallery (2/6/17)
 06. Type Ahead (2/7/17)
-07.
+07. Array Cardio - Day 2 (2/8/17)
 08.
 09.
 10.
