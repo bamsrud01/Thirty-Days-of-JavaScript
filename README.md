@@ -11,7 +11,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 05. Flex Gallery (2/6/17)
 06. Type Ahead (2/7/17)
 07. Array Cardio - Day 2 (2/8/17)
-08.
+08. HTML5 Canvas (2/9/17)
 09.
 10.
 11.
