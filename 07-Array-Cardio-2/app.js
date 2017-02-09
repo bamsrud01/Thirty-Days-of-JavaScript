@@ -14,7 +14,26 @@ const comments = [
 ];
 // Some and Every Checks
 // Array.prototype.some() // is at least one person 19 or older?
+const isAdult = people.some(function(person) {
+  const currentYear = (new Date().getFullYear());
+  if (currentYear - person.year >= 19) {
+    return true;
+  }
+});
+
+// Alternatively, ES2015 syntax:
+const anotherIsAdult = people.some(person => {
+  const currentYear = (new Date().getFullYear());
+  return currentYear - person.year >= 19;
+});
+
+// console.log({isAdult});
+console.log({anotherIsAdult});
+
 // Array.prototype.every() // is everyone 19 or older?
+  // Syntax implicitly returns arrow function
+const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
+console.log({allAdults});
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
 // find the comment with the ID of 823423
