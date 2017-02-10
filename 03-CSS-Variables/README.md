@@ -1,4 +1,4 @@
-# CSS Variables
+# 03 - CSS Variables
 
 This project uses CSS variables to dynamically update the text/padding color, padding size, and blur level of the page.
 

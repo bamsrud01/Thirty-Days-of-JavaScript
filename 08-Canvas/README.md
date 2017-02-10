@@ -1,4 +1,4 @@
-# HTML5 Canvas
+# 08 - HTML5 Canvas
 
 This application allows a user to sketch on a canvas, producing multiple lines varying in color.
 

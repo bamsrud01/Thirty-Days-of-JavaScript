@@ -1,4 +1,4 @@
-# Flex Gallery
+# 05 - Flex Gallery
 
 This application is an example of a gallery using flexbox and transitions to dynamically open and close gallery items.
 

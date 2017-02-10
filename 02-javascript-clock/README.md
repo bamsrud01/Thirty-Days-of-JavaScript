@@ -1,4 +1,4 @@
-# JavaScript Clock
+# 02 - JavaScript Clock
 
 This clock takes the current time and displays a ticking analog clock in the browser;
 

@@ -1,4 +1,4 @@
-# Array Cardio 1
+# 04 - Array Cardio 1
 
 This repo contains a file with practice methods on arrays.
 

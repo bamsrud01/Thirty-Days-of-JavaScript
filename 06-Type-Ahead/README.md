@@ -1,4 +1,4 @@
-# Type Ahead
+# 06 - Type Ahead
 
 This project fetches information from 1000 US cities, and will automatically show matches by city or state name when the user enters or changes a search term
 
