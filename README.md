@@ -12,7 +12,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 06. Type Ahead (2/7/17)
 07. Array Cardio - Day 2 (2/8/17)
 08. HTML5 Canvas (2/9/17)
-09.
+09. Dev Tool Tricks (2/10/17)
 10.
 11.
 12.
