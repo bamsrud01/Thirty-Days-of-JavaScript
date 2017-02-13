@@ -14,7 +14,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 08. HTML5 Canvas (2/9/17)
 09. Dev Tool Tricks (2/10/17)
 10. Multiple Checkboxes (2/11/17)
-11.
+11. Video Player (2/12/17)
 12.
 13.
 14.
