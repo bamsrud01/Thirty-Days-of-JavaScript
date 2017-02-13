@@ -26,7 +26,19 @@ function skip() {
 }
 
 function handleRangeUpdate() {
+  video[this.name] = this.value;
+}
 
+function handleProgress() {
+  // Determine the percent of the width of the video for the progress bar
+  const percent = (video.currentTime / video.duration) * 100;
+  // Change size of progress bar with flex properties
+  progressBar.style.flexBasis = `${percent}%`;
+}
+
+function scrub(e) {
+  const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
+  video.currentTime = scrubTime;
 }
 
 /*  Build Event Listeners  */
@@ -40,3 +52,11 @@ video.addEventListener('pause', updateButton);
 skipButtons.forEach(button => button.addEventListener('click', skip));
 ranges.forEach(range => range.addEventListener('change', handleRangeUpdate));
 ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate));
+
+video.addEventListener('timeupdate', handleProgress);
+
+let mousedown = false;
+progress.addEventListener('click', scrub);
+progress.addEventListener('mousemove', () => mousedown && scrub(e));
+progress.addEventListener('mousedown', () => mousedown = true);
+progress.addEventListener('mouseup', () => mousedown = false);
