@@ -16,7 +16,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 10. Multiple Checkboxes (2/11/17)
 11. Video Player (2/12/17)
 12. Key Sequence Detection (2/13/17)
-13.
+13. Slide In on Scroll (2/14/17)
 14.
 15.
 16.

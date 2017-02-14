@@ -1,4 +1,4 @@
-# 11 - Key Sequence Detection
+# 12 - Key Sequence Detection
 
 This CHALLENGE detects the sequence of keys pressed by the user, and rewards the user for entering the secret code.
 
