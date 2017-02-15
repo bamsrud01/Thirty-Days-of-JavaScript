@@ -8,24 +8,55 @@
 
   <script>
     // start with strings, numbers and booleans
+    let age = 100;
+    let age2 = age;
+    console.log(age, age2);
+    age = 200;
+    console.log(age, age2);
     // Let's say we have an array
     const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
     // and we want to make a copy of it.
+    const team = players;
+    console.log(players, team);
+
     // You might think we can just do something like this:
+    team[3] = 'Lux';
+    console.log('Arrays reference the original.  team is a reference to players, so when team is changed, players is also changed.');
+    console.log('team:', team);
+    console.log('players:', players);
     // however what happens when we update that array?
     // now here is the problem!
     // oh no - we have edited the original array too!
     // Why? It's because that is an array reference, not an array copy. They both point to the same array!
     // So, how do we fix this? We take a copy instead!
+    console.log('We can make a copy rather than a reference, using slice with no arguments');
+    let team2 = players.slice();
+    team2[3] = 'Poppy';
+    console.log(team2, players);
     // one day
     // or create a new array and concat the old one in
+    let team3 = [].concat(players);
     // or use the new ES6 Spread
+    let team4 = [...players];
+
+    let team5 = Array.from(players);
     // now when we update it, the original one isn't changed
     // The same thing goes for objects, let's say we have a person object
+    const person = {
+      name: 'Barrett Amsrud',
+      age: 25
+    };
     // with Objects
     // and think we make a copy:
+    const me = person;
+    console.log(person, me);
     // how do we take a copy instead?
+    const me2 = Object.assign({}, person, {number: 99});
+    console.log(person, me2);
+
     // We will hopefully soon see the object ...spread
+      //  Not yet working, but hopefully an upcoming feature
+      // const me3 = {...person};
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
   </script>
 
