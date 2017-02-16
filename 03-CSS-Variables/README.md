@@ -11,3 +11,4 @@ This project uses CSS variables to dynamically update the text/padding color, pa
 
 - Barrett Amsrud
 - February 4th, 2017
+- http://codepen.io/bamsrud01/pen/ZLPdzZ

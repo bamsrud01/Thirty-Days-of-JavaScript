@@ -13,3 +13,4 @@ This application includes images that slide into focus as the user scrolls down 
 
 - Barrett Amsrud
 - February 14th, 2017
+- http://codepen.io/bamsrud01/pen/PWLrNQ

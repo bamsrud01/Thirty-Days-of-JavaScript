@@ -11,3 +11,4 @@ This application is an example of a gallery using flexbox and transitions to dyn
 
 - Barrett Amsrud
 - February 6th, 2017
+- http://codepen.io/bamsrud01/pen/dNrBPp

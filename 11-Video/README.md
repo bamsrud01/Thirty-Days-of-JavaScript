@@ -14,3 +14,4 @@ This is a customized video player, with several ways for a user to interact with
 
 - Barrett Amsrud
 - February 12th, 2017
+- http://codepen.io/bamsrud01/pen/VPRJeP
