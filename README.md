@@ -18,7 +18,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 12. Key Sequence Detection (2/13/17)
 13. Slide In on Scroll (2/14/17 - [CodePen](http://codepen.io/bamsrud01/pen/PWLrNQ))
 14. Reference vs Copy (2/15/17)
-15. Local Storage and Event Delegation (2/16/17)
+15. Local Storage and Event Delegation (2/16/17 [CodePen](http://codepen.io/bamsrud01/pen/apxaLL))
 16.
 17.
 18.
