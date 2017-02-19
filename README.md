@@ -19,8 +19,8 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 13. Slide In on Scroll (2/14/17 - [CodePen](http://codepen.io/bamsrud01/pen/PWLrNQ))
 14. Reference vs Copy (2/15/17)
 15. Local Storage and Event Delegation (2/16/17 - [CodePen](http://codepen.io/bamsrud01/pen/apxaLL))
-16. Mouse Move Shadow (2/15/15 - [CodePen](http://codepen.io/bamsrud01/pen/WRBdKN))
-17.
+16. Mouse Move Shadow (2/17/15 - [CodePen](http://codepen.io/bamsrud01/pen/WRBdKN))
+17. Sorting Without Articles (2/18/17 - [CodePen](http://codepen.io/bamsrud01/pen/qRGezo))
 18.
 19.
 20.
