@@ -1,4 +1,4 @@
-# 15 - Mouse Move Shadow
+# 16 - Mouse Move Shadow
 
 Moving the mouse generates multiple colored shadows of the image text
 
