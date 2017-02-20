@@ -21,7 +21,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 15. Local Storage and Event Delegation (2/16/17 - [CodePen](http://codepen.io/bamsrud01/pen/apxaLL))
 16. Mouse Move Shadow (2/17/15 - [CodePen](http://codepen.io/bamsrud01/pen/WRBdKN))
 17. Sorting Without Articles (2/18/17 - [CodePen](http://codepen.io/bamsrud01/pen/qRGezo))
-18.
+18. Tally String Times (2/19/17)
 19.
 20.
 21.
@@ -39,4 +39,4 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 
 - Barrett Amsrud
 - All projects follow the structure of the "30 Day Vanilla JS Coding Challenge", found [here](https://javascript30.com/)
-- [Codepen collection](http://codepen.io/collection/DQKzgV/)
+- [CodePen collection](http://codepen.io/collection/DQKzgV/)
