@@ -24,9 +24,17 @@ function paintToCanvas() {
 
   return setInterval(() => {
     ctx.drawImage(video, 0, 0, width, height);
+    //  Take pixel data
+    let pixels = ctx.getImageData(0, 0, width, height);
+    //  Apply effect
+    // pixels = redEffect(pixels);
+    pixels = rgbSplit(pixels);
+    //  Show altered image
+    ctx.putImageData(pixels, 0, 0);
   }, 16);
 }
 
+//  Handles capturing an image from the video
 function takePhoto() {
   //  Play photo sound
   snap.currentTime = 0;
@@ -38,6 +46,53 @@ function takePhoto() {
   link.setAttribute('download', 'photobooth');
   link.innerHTML = `<img src="${data}" alt="Photobooth Image" />`;
   strip.insertBefore(link, strip.firstChild);
+}
+
+//  Filters and effects
+
+function redEffect(pixels) {
+  //  Pixels are logged as an array of alternating rgba values
+  for(let i = 0; i < pixels.data.length; i += 4) {
+    pixels.data[i] += 100;
+  }
+  return pixels;
+}
+
+function rgbSplit(pixels) {
+  //  Pixels are logged as an array of alternating rgba values
+  for(let i = 0; i < pixels.data.length; i += 4) {
+    pixels.data[i - 150] = pixels.data[i]; //  Red
+    pixels.data[i + 100] = pixels.data[i + 1]; //  Red
+    pixels.data[i - 150] = pixels.data[i + 2]; //  Red
+  }
+  return pixels;
+}
+
+function greenScreen(pixels) {
+  const levels = {};
+
+  document.querySelectorAll('.rgb input').forEach((input) => {
+    levels[input.name] = input.value;
+  });
+
+  for (i = 0; i < pixels.data.length; i = i + 4) {
+    red = pixels.data[i + 0];
+    green = pixels.data[i + 1];
+    blue = pixels.data[i + 2];
+    alpha = pixels.data[i + 3];
+
+    if (red >= levels.rmin
+      && green >= levels.gmin
+      && blue >= levels.bmin
+      && red <= levels.rmax
+      && green <= levels.gmax
+      && blue <= levels.bmax) {
+      // take it out!
+      pixels.data[i + 3] = 0;
+    }
+  }
+
+  return pixels;
 }
 
 getVideo();
