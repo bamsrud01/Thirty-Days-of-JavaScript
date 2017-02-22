@@ -23,6 +23,13 @@ recognition.addEventListener('result', e => {
     .map(result => result[0])
     .map(result => result.transcript)
     .join('');
+    //  Add this information to the DOM
+    p.textContent = transcript;
+    //  Check if result is final, and create a new paragraph
+    if (e.results[0].isFinal) {
+      p = document.createElement('p');
+      words.appendChild(p);
+    }
 });
 
 //  This event listener will restart the speech recognition event listener
