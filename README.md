@@ -24,7 +24,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 18. Tally String Times (2/19/17)
 19. Webcam Photobooth (2/20/17)
 20. Speech Detection (2/12/17)
-21.
+21. Geolocation (2/22/17)
 22.
 23.
 24.
