@@ -25,7 +25,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 19. Webcam Photobooth (2/20/17)
 20. Speech Detection (2/12/17)
 21. Geolocation (2/22/17)
-22. Follow Along Link Highlighter (2/23/17)
+22. Follow Along Link Highlighter (2/23/17 - [CodePen](http://codepen.io/bamsrud01/pen/jBOKyJ))
 23.
 24.
 25.
