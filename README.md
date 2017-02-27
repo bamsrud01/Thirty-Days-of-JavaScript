@@ -28,7 +28,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 22. Follow Along Link Highlighter (2/23/17 - [CodePen](http://codepen.io/bamsrud01/pen/jBOKyJ))
 23. Speech Synthesis (2/24/17 - [CodePen](http://codepen.io/bamsrud01/pen/OpPNVz))
 24. Sticky Nav (2/25/17 - [CodePen](http://codepen.io/bamsrud01/pen/wJBRBM))
-25.
+25. Event Capture, Propogation, and Bubbling (2/26/17)
 26.
 27.
 28.
