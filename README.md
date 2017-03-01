@@ -30,7 +30,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 24. Sticky Nav (2/25/17 - [CodePen](http://codepen.io/bamsrud01/pen/wJBRBM))
 25. Event Capture, Propagation, and Bubbling (2/26/17)
 26. Stripe Follow Along Nav (2/27/17 - [CodePen](http://codepen.io/bamsrud01/pen/RpWbra))
-27.
+27. Click and Drag (2/28/17)
 28.
 29.
 30.
