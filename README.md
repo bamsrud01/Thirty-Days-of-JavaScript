@@ -1,6 +1,6 @@
 # Thirty Days of JavaScript
 
-This repo contains thirty JavaScript applications.  Check each sub-repo for a description of each project!
+This repo contains thirty JavaScript applications.  Check each sub-repo for a description of each project!  Several of the applications have been built in CodePen.  Click the link next to the name and date of the project to go to that project's CodePen page, or view the entire CodePen collection [here](http://codepen.io/collection/DQKzgV/).
 
 ## Contents
 
