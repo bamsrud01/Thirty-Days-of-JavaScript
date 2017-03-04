@@ -33,7 +33,7 @@ This repo contains thirty JavaScript applications.  Check each sub-repo for a de
 27. Click and Drag (2/28/17 - [CodePen](http://codepen.io/bamsrud01/pen/YZydZR))
 28. Video Speed Controller (3/1/17 - [CodePen](http://codepen.io/bamsrud01/pen/RprMbK))
 29. Countdown Clock (3/2/17 - [CodePen](http://codepen.io/bamsrud01/pen/gmrWoa))
-30. Whack A Mole (3/3/17)
+30. Whack A Mole (3/3/17 - [CodePen](http://codepen.io/bamsrud01/pen/jBrWRP))
 
 ## Author
 
